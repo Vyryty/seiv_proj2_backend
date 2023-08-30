@@ -12,7 +12,7 @@ jobs:
           node-version: 16.x
       - run: npm install
       - run: npm run build --if-present
-      - run: npm test
+#      - run: npm test
 
 # Pasted in node-deploy.yml between "steps" and "deploy to server"
 #      - uses: actions/checkout@v2

@@ -32,5 +32,5 @@ module.exports = (app) => {
   // Delete all Course
   router.delete("/courses/:id", /*[authenticate],*/ courses.deleteAll);
 
-  app.use("/tutorial/courses", router);
+  app.use("/course-t3", router);
 };
