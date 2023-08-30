@@ -1,11 +1,11 @@
 [Unit]
-Description=NodeJS Tutorial App
+Description=NodeJS Team3 Course App
 After=network.target
  
 [Service]
 Type=simple
 User=ubuntu
-WorkingDirectory=/home/ubuntu/nodeapps/tutorial-backend/
+WorkingDirectory=/home/ubuntu/nodeapps/2023/project2/t3
 ExecStart=/usr/bin/npm run start
 Restart=on-failure
  
